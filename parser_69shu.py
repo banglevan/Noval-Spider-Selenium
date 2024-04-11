@@ -6,9 +6,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
 import time
-import os
-import asyncio
-import edge_tts
 
 service = Service(ChromeDriverManager().install())
 chrome_options = webdriver.ChromeOptions()
